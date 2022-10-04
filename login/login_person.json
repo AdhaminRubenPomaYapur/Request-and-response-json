@@ -1,0 +1,15 @@
+{
+    "status": 200,
+    "message": "Login exitoso",
+    "data": {
+        "token": "Bearer eyJhbGciOiJodHRwOi8vd3d3LnczLm9yZy8yMDAxLzA0L3htbGRzaWctbW9yZSNobWFjLXNoYTUxMiIsInR5cCI6IkpXVCJ9.eyJodHRwOi8vc2NoZW1hcy54bWxzb2FwLm9yZy93cy8yMDA1LzA1L2lkZW50aXR5L2NsYWltcy9uYW1lIjoiam9zZXJlbmVndWFyYWNoaXBpdGlnYUBnbWFpbC5jb20iLCJleHAiOjE2Njc0NDA1Mjl9.Vsv1wFKGu5KcokmrQYiRD-9zPqb-ywjPVJ2YAeZqgx-VRls2wdXPLrKP0FDOFBpVc1uFyg1SbKxAWv8cf9295Q",
+        "person": {
+            "personId": 73,
+            "personName": "sergio loza",
+            "email": "josereneguarachipitiga@gmail.com",
+            "mobile": "78966523",
+            "birthDate": "2022-09-27T00:00:00Z",
+            "sex": 1
+        }
+    }
+}
