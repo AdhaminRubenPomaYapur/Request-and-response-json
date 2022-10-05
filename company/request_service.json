@@ -7,8 +7,8 @@
     },
     {
         "serviceId"    : 2,
-        "serviceName"  : "Operaciones o Cirujias",
+        "serviceName"  : "Odontologia",
         "serviceState" : 1,
-        "companyId"    : 1
+        "companyId"    : 2
     }
 ]

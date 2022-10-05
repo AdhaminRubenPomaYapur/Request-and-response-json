@@ -11,35 +11,67 @@
 
 // Seccion de requerimientos
 *********************************************************
-Entonces para suscribirse sera lo siguiente:
-    Send Post subscribe:
+[GET]
+    [Lista de Office]
+    Damos click y nos muestra una sola sucursal
+    -----------------------------------------------
+    Un boton para ver el perfil de la company.
+    [GET]
+    getByCompany(companyId)
     {
-        "clientId"  : 1,
-        "personId"  : 1,
-        "companyId" : 1,
-        "status"    : "suscrito"
+        "companyName"     : "Hospital Japones",
+        "companyWebPage"  : "hospitalJapones.com",
+        "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+        "companyCategory" : 0,
+        "companyState"    : 1,
+        "companyType"     : 
+        {
+            "CompanyTypeName"        : "Hospital",
+            "CompanyTypeDescription" : "Hospital General",
+        }
     }
-    
+
+[GET]
+    [Lista de servicio]
+
+
+Entonces para suscribirse sera lo siguiente:    
     Response Post subscribe: 
     {
         "status" : 200,
-        "message": "Suscripcion exitosa",
-        "data"   : null
+        "message": "Suscripcion exitosa", //Puede fallar?
+        "data"   : { "clientId": "1" }
     }
 
+[GET]
+getSubscribedCompanyByPersonId(personId) {
+    [
+        {
+            "companyName"     : "Hospital Japones",
+            "companyWebPage"  : "hospitalJapones.com",
+            "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+            "companyCategory" : 0,
+            "companyState"    : 1,
+            "companyType"     : 
+            {
+                "CompanyTypeName"        : "Hospital",
+                "CompanyTypeDescription" : "Hospital General",
+            }
+        }   
+    ]
+}
+
+[GET]
+getWorkDaysByOfficeId(offerId) {
+    [
+        WorkDay,
+        WorkDay,
+        WorkDay,
+        WorkDay,
+    ]
+}
+
 Para hacer una reserva:
-    Send Post Book:
-    {
-        "bookId"       : 1,
-        "Stage"        : "Reserva",
-        "status"       : "En curso",
-        "clientId"     : 1,
-        "WorkDayId"    : 1,
-        "offerId"      : 1,
-        "RateService"  : 5,
-        "RateCustomer" : 5,
-        "timeId"       : 1
-    }
     Response post Book:
     {
         "status" : 200,
