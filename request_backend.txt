@@ -7,21 +7,115 @@
                 - Por Id de office se tendria... (✓)
                     - Offer (ofertas)
 
-                    
+                    - Las Offer ya se tienen (✓)
 
-- Relacion (1-N)
-    - Las compañias ya se tienen (✓)
-        - Por Id de compañia se tendria... (✓)
-            - Service (servicio) (✓)
+// Seccion de requerimientos
+*********************************************************
+Entonces para suscribirse sera lo siguiente:
+    Send Post subscribe:
+    {
+        "clientId"  : 1,
+        "personId"  : 1,
+        "companyId" : 1,
+        "status"    : "suscrito"
+    }
+    
+    Response Post subscribe: 
+    {
+        "status" : 200,
+        "message": "Suscripcion exitosa",
+        "data"   : null
+    }
+
+Para hacer una reserva:
+    Send Post Book:
+    {
+        "bookId"       : 1,
+        "Stage"        : "Reserva",
+        "status"       : "En curso",
+        "clientId"     : 1,
+        "WorkDayId"    : 1,
+        "offerId"      : 1,
+        "RateService"  : 5,
+        "RateCustomer" : 5,
+        "timeId"       : 1
+    }
+    Response post Book:
+    {
+        "status" : 200,
+        "message": "Suscripcion exitosa",
+        "data"   : 
+        {
+            "company":
+            {
+                "companyId"      : 1,
+                "companyName"    : "Hospital Japones",
+                "companyWebPage" : "hospitalJapones.com"
+            },
+            "office" :
+            {
+                "officeId"    : 1,
+                "officeName"  : "Hospital Jap 3",
+                "companyLogo" : "image.jpg"
+            },
+            "client" :
+            {
+                "person" :
+                {
+                    "name"      : "Jose Rene Guarachi Pitiga",
+                    "birthDate" : "2001-10-05",
+                    "sex"       : 1,
+                    "email"     : "josereneguarachipitiga@gmail.com",
+                    "mobile"    : "78953125"
+                }
+            },
+            "WorkDay" :
+            {
+                "date"      : "2022-01-03",
+                "day"       : "Miercoles",
+                "detailDay" : "Miercoles 03 de enero del 2022"
+            },
+            "Time" :
+            {
+                "day"      : "Miercoles",
+                "starTime" : "10:00",
+                "endTime"  : "10:30"
+            }
+        }
+    }
+*********************************************************
+
+Esto Falta (X)
+    - Relacion (1-N)
+        - Las compañias ya se tienen (✓)
+            - Por Id de compañia se tendria... (✓)
+                - Los Service (servicio) (✓)
+                    - getbyId/[$companyId] :
+                        [
+                            {
+                                "serviceId"    : 1,
+                                "serviceName"  : "Odontologia",
+                                "serviceState" : 1,
+                                "companyId"    : 1
+                            },
+                            {
+                                "serviceId"    : 2,
+                                "serviceName"  : "Operaciones o Cirujias",
+                                "serviceState" : 1,
+                                "companyId"    : 1
+                            }
+                        ]
 
 - Relacion (1-N)
     - Las compañias ya se tienen (✓)
         - Por Id de compañia se tendria... (✓)
             - Employee (empleado) (✓)
+                -
 
 - Relacion (1-N)
     - Las compañias ya se tienen (✓)
         - Por Id de compañia se tendria... (✓)
             - Especialty (especialidad) (✓)
+
 
 
