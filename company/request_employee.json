@@ -1,0 +1,18 @@
+[
+    {
+        "employeeId"    : 1,
+        "employeeState" : 1,
+        "role"          : 1,
+        "companyId"     : 1,
+        "personId"      : 2,
+        "officeId"      : 1
+    },
+    {
+        "employeeId"    : 2,
+        "employeeState" : 1,
+        "role"          : 1,
+        "companyId"     : 7,
+        "personId"      : 18,
+        "officeId"      : 9
+    }
+]

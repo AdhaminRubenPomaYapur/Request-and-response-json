@@ -1,0 +1,14 @@
+[
+    {
+        "serviceId"    : 1,
+        "serviceName"  : "Odontologia",
+        "serviceState" : 1,
+        "companyId"    : 1
+    },
+    {
+        "serviceId"    : 2,
+        "serviceName"  : "Operaciones o Cirujias",
+        "serviceState" : 1,
+        "companyId"    : 1
+    }
+]

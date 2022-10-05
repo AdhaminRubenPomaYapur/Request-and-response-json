@@ -1,0 +1,16 @@
+[
+    {
+        "especialityId": "1",
+        "companyId"    : "5",
+        "name"         : "Odontologo",
+        "description"  : "Curacion de muelas",
+        "status"       : "activo"
+    },
+    {
+        "especialityId": "2",
+        "companyId"    : "5",
+        "name"         : "Cirujano",
+        "description"  : "Practico en operaciones",
+        "status"       : "activo"
+    }
+]

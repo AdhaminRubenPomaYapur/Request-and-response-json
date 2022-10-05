@@ -1,0 +1,24 @@
+[
+    {
+        "officeId"        : 1,
+        "officeName"      : "Hospital Jap 3",
+        "country"         : "Bolivia",
+        "city"            : "Santa Cruz",
+        "address"         : "Av Banzer",
+        "geoRefLatitude"  : 1651.1156,
+        "geoRefLongitude" : 15151.15151,
+        "officeState"     : 1,
+        "companyId"       : 1
+    },
+    {
+        "officeId"        : 2,
+        "officeName"      : "Hospital Jap 2",
+        "country"         : "Bolivia",
+        "city"            : "Santa Cruz",
+        "address"         : "Av Beni",
+        "geoRefLatitude"  : 15151.15151,
+        "geoRefLongitude" : 15151.15151,
+        "officeState"     : 1,
+        "companyId"       : 2
+    }
+]

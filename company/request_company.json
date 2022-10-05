@@ -1,0 +1,20 @@
+[
+    {
+        "companyId"       : 1,
+        "companyName"     : "Hospital Japones",
+        "companyWebPage"  : "farmacorp.com",
+        "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+        "companyCategory" : 0,
+        "companyState"    : 1,
+        "companyTypeId"   : 1
+    },
+    {
+        "companyId"       : 2,
+        "companyName"     : "Hospital Divino Niño",
+        "companyWebPage"  : "hospitaljapones.com",
+        "companyLogo"     : "https://oxigeno.bo/sites/default/files/styles/standar_640x480/public/field/image/fermin_0_0.jpeg?itok=lSvab3G5",
+        "companyCategory" : 0,
+        "companyState"    : 1,
+        "companyTypeId"   : 1
+    }
+]

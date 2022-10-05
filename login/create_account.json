@@ -1,0 +1,18 @@
+{
+    "post": {
+        "personId"   : 1,
+        "personName" : "Jose Eduardo Robles Quintana",
+        "email"      : "joseduardoroble@gmail.com",
+        "mobile"     : "78953652",
+        "birthDate"  : "2001-10-05",
+        "sex"        : 1
+    },
+    "response": {
+        "personId"   : 136,
+        "personName" : "Jose Eduardo Robles Quintana",
+        "email"      : "joseduardoroble@gmail.com",
+        "mobile"     : "78953652",
+        "birthDate"  : "2001-10-05T00:00:00Z",
+        "sex"        : 1
+    }
+}

@@ -1,4 +1,8 @@
 {
+    "post": {
+        "email": "adhami@gmail.com",
+        "password": "232323232"
+    },
     "status": 200,
     "message": "Login exitoso",
     "data": {
@@ -11,5 +15,10 @@
             "birthDate": "2022-09-27T00:00:00Z",
             "sex": 1
         }
+    },
+    "response": {
+        "status": 101,
+        "message": "Email o contrasena invalidos",
+        "data": null
     }
 }

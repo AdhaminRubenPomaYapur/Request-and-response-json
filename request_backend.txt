@@ -1,0 +1,27 @@
+- Relacion (1-N)
+    - Las compañias ya se tienen. (✓)
+        - Por Id de compañia se tendria... (✓)
+            - Office (sucursales) (✓)
+
+            - Las Office ya se tienen (✓)
+                - Por Id de office se tendria... (✓)
+                    - Offer (ofertas)
+
+                    
+
+- Relacion (1-N)
+    - Las compañias ya se tienen (✓)
+        - Por Id de compañia se tendria... (✓)
+            - Service (servicio) (✓)
+
+- Relacion (1-N)
+    - Las compañias ya se tienen (✓)
+        - Por Id de compañia se tendria... (✓)
+            - Employee (empleado) (✓)
+
+- Relacion (1-N)
+    - Las compañias ya se tienen (✓)
+        - Por Id de compañia se tendria... (✓)
+            - Especialty (especialidad) (✓)
+
+

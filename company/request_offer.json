@@ -1,0 +1,18 @@
+[
+    {
+        "offerId"   : "1",
+        "officeId"  : "1",
+        "serviceId" : "1",
+        "employeId" : "1",
+        "timeId"    : "1",
+        "status"    : "libre - ocupado - cancelado"
+    },
+    {
+        "offerId"   : "2",
+        "officeId"  : "1",
+        "serviceId" : "2",
+        "employeId" : "1",
+        "timeId"    : "2",
+        "status"    : "libre - ocupado - cancelado"
+    }
+]
