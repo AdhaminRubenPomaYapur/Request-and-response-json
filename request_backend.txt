@@ -33,6 +33,37 @@
 
 [GET]
     [Lista de servicio]
+    [GET]
+    getByCompany(companyId)
+    {
+        "companyName"     : "Hospital Japones",
+        "companyWebPage"  : "hospitalJapones.com",
+        "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+        "companyCategory" : 0,
+        "companyState"    : 1,
+        "companyType"     : 
+        {
+            "CompanyTypeName"        : "Hospital",
+            "CompanyTypeDescription" : "Hospital General",
+        }
+    }
+
+[GET]
+    [Lista de especialidad]
+    [GET]
+    getByCompany(companyId)
+    {
+        "companyName"     : "Hospital Japones",
+        "companyWebPage"  : "hospitalJapones.com",
+        "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+        "companyCategory" : 0,
+        "companyState"    : 1,
+        "companyType"     : 
+        {
+            "CompanyTypeName"        : "Hospital",
+            "CompanyTypeDescription" : "Hospital General",
+        }
+    }
 
 
 Entonces para suscribirse sera lo siguiente:    
@@ -44,7 +75,8 @@ Entonces para suscribirse sera lo siguiente:
     }
 
 [GET]
-getSubscribedCompanyByPersonId(personId) {
+getSubscribedCompanyByPersonId(personId) 
+{
     [
         {
             "companyName"     : "Hospital Japones",
@@ -150,4 +182,8 @@ Esto Falta (X)
             - Especialty (especialidad) (✓)
 
 
+
+// Dudas
+Los servicios no deberian de ser de muchos a muchos con la Company
+    - De forma que se elimina la redundancia....
 
