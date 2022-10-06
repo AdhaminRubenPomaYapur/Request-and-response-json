@@ -89,7 +89,7 @@ getSubscribedCompanyByPersonId(personId)
                 "CompanyTypeName"        : "Hospital",
                 "CompanyTypeDescription" : "Hospital General",
             }
-        }   
+        }
     ]
 }
 

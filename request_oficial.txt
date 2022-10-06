@@ -1,0 +1,66 @@
+- Primer punto (Traer los [GET] necesarios)
+
+[GET]
+    [Lista de todas las Office]
+    [GET]
+        getCompanyById(companyId)
+        {
+            "companyName"     : "Hospital Japones",
+            "companyWebPage"  : "hospitalJapones.com",
+            "companyLogo"     : "https://purple.ai/wp-content/uploads/2020/06/Farmacorp-logo.png",
+            "companyCategory" : 0,
+            "companyState"    : 1,
+            "companyType"     : 
+            {
+                "CompanyTypeName"        : "Hospital",
+                "CompanyTypeDescription" : "Hospital General",
+            }
+        }
+        [GET]getOfertsByIdOfficeService(officeId, serviceId)
+        [
+            {
+                "offerId"   : "1",
+                "officeId"  : "1",
+                "serviceId" : "1",
+                "employeId" : "1",
+                "time"      : 
+                {
+                    "day"       : "Miercoles",
+                    "StartTime" : "10:00",
+                    "EndTime"   : "11:00",
+                },
+                "status"    : "libre - ocupado - cancelado"
+            },
+            {
+                "offerId"   : "2",
+                "officeId"  : "1",
+                "serviceId" : "2",
+                "employeId" : "1",
+                "timeId"    : "2",
+                "status"    : "libre - ocupado - cancelado"
+            }
+        ]
+
+
+
+[GET]
+    [Lista de todos los servicios]
+
+[GET]
+    [Lista de todos los empleados]
+
+[GET]getByIdSuscribe(personId)
+    [Lista de compañias segun personId suscrito]
+
+
+[POST]clientCreate(personId, companyId)
+    {
+        "personId"   : personId,
+        "companyId"  : companyId
+    }
+    Response Post subscribe: 
+    {
+        "status" : 200,
+        "message": "Suscripcion exitosa", //Puede fallar?
+        "data"   : { "clientId": "1" }
+    }
